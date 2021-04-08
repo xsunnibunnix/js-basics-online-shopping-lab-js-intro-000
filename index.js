@@ -66,6 +66,6 @@ function placeOrder(cardNumber) {
   } else if (typeof cardNumber === "number"){
     const total = total();
     cart.splice(0);
-    return `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`);
+    return `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
   }
 }
